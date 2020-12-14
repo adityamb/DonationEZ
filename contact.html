@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate EZ</title>
-
-    <!-- Custome style -->
+    <title>DONATE EZ_CONTACT</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.css">
-
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
-
-    <!-----Navigatoin------->
     <nav class="nav">
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="#" class="text-gray">DONATE EZ</a>
+                <a href="./index.html" class="text-gray">DONATE EZ</a>
             </div>
             <div class="toggle-collapse">
                 <div class="toggle-icons">
@@ -26,14 +22,20 @@
             <div class="nav-items">
                 <ul class="nav-items">
                     <li class="nav-link">
-                        <a href="#">Home</a>
-                   
-                    <li class="nav-link">
-                        <a href="./about.html">About</a>
+                        <a href="./index.html">Back To Home</a>
+                    </li>
+                    <!-- <li class="nav-link">
+                        <a href="#">Category</a>
                     </li>
                     <li class="nav-link">
-                        <a href="./contact.html">Contact Us</a>
+                        <a href="#">Archive</a>
                     </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Contact Us</a>
+                    </li> -->
                 </ul>
             </div>
             <div class="social text-gray">
@@ -45,32 +47,23 @@
             </div>
         </div>
     </nav>
-    <main>
-     <section class="bgc">
-        <div class="head1">
-            <h1>WE NEED YOUR HELP</h2>
-             <h2>DONATE EASILY.</h2>
-        
-        <form>
-        
-        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_G9K6GQHtGuXdcF"> 
-        </script> 
-       </form>
-       <p>Supported By The Sparks Foundation</p>
+    <div class="wrapper">
+        <h2>CONTACT US</h2>
+        <form  action="https://formspree.io/f/xdopwwze" method="POST">\
+            
+        <div class="input-field">
+            <input type="text" placeholder="Name" name="rname" required>
+            <input type="text"placeholder="E-Mail" name="_replyto" required>
+            <input type="tel"placeholder="Contact Number" required>
+           
+        </div>
+        <div class="msg">
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="Enter Your Queries" ></textarea>
+            <button type="submit" formtarget="#">Send</button>
+        </div>
+    </form>
     </div>
-        
-      </section>
-    </main>
- 
-
-
-
-
-    <!-----Navigatoin------->
-    
-
-    <script src="./js/Jquery351.min.js"></script>
-    <!--Custom Javascript-->
-    <script src="./js/main.js"></script>
+   
 </body>
 </html>

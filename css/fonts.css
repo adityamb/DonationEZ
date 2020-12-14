@@ -3,3 +3,13 @@
     font-family: Do_Hans;
     src: url('../fonts/DoHyeon-Regular.ttf');
 }
+
+@font-face{
+    font-family: Lato;
+    src: url('../fonts/Lato\ \(1\)/Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family: Roboto;
+    src:url('../fonts/Roboto-Black.ttf')
+}

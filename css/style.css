@@ -35,24 +35,47 @@
      font-size:2rem;
  }
 
- .bgc{
+main .bgc{
  
-    justify-content: center;
-    background: url('../assets/free-website-for-ngo.jpg');
+    
+    background: url('../assets/pix2_53a6a563503de.jpg');
     background-size: cover;
     
-    height: 100vh;
-    margin: 0;
+    height: 90vh;
+    
+    display: flex;
+    
 }
 
-.head1{
-    font-size: 2rem;
-    padding: 20px;
-    opacity: 1;
+main .bgc .head1{
+    justify-content: right;
+   padding-top:10rem;
+   text-align: right;
+   margin-left: 5rem;
+   color: var(--white);
+   margin-left: 50%;
+    
 }
-
+.bgc .head1 h1,h2{
+    color: #ffffff ;
+    margin: .3rem;
+    font-size: 3.5rem;
+    font-family: Lato;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+}
 .bgc form{
-    padding-top: 15rem;
+    padding-top: 1rem;
+margin-top: 1.5rem;
+      margin-right: 5rem;
+    
+}
+main .bgc p{
+    justify-content:right;
+    margin-top:43%;
+    padding-left: 1rem;
+    color: #86e6d1;
+    
 }
  
  .flex-row{
@@ -68,7 +91,7 @@
  /* -------------- Navbar --- */
 
  .nav{
-     background:white;
+     background:rgba(191, 233, 236, 0.911);
      padding: 0 2rem;
      height: 0rem;
      min-height: 10vh;
@@ -124,7 +147,7 @@
  }
  .nav .nav-brand a{
      font-size: 1.6rem;
-     padding: 1rem 0;
+     padding: 1.6rem 0;
      display: block;
      font-family: Do_Hans;
 

@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:peachpuff;
+}
+
+nav form{
+    padding-top: 20px;
+}
+
+
+.about-section{
+    max-height: 92vh;
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: #f1f1f1;
+    background: url('../assets/laptop_phone_desktop_179989_1024x768.jpg') no-repeat left;
+    background-size: 85%;
+   
+    
+
+    background-color:#fdfdfd;
+    overflow:hidden;
+ 
+
+}
+
+.inner-container{
+    width: 55%;
+    justify-content: end;
+    float: right;
+    background-color: #dcfeffec;
+    padding: 50px 150px 150px 150px;
+    margin: 5rem 2rem 2rem 50%;
+   
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    columns: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+.icons-innerhtml{
+    padding-top: 50px;
+}
+.icons-innerhtml a{
+    padding: 25px;
+    font-size: 1.9rem;
+}
