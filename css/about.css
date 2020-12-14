@@ -1,4 +1,4 @@
-
+@import url('../css/fonts.css');
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +7,12 @@
 }
 
 body{
-    background-color:peachpuff;
+    background-color:rgba(2, 1, 1, 0.911);
 }
 
 nav form{
     padding-top: 20px;
+    
 }
 
 
@@ -38,16 +39,23 @@ nav form{
     float: right;
     background-color: #dcfeffec;
     padding: 50px 150px 150px 150px;
-    margin: 5rem 2rem 2rem 50%;
+    margin: 5rem 2rem 5rem 50%;
    
 }
 
 .inner-container h1{
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 2.2rem;
     font-weight: 900;
+    font-family: Roboto ;
+    color:#0b1614;
 }
-
+.inner-container p{
+    font-size: 1rem;
+    font-family: Lato;
+    font-weight: 100;
+    padding: 15px ;
+}
 .text{
     font-size: 13px;
     columns: #545454;
@@ -61,6 +69,7 @@ nav form{
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
+    padding: 10px;
 }
 .icons-innerhtml{
     padding-top: 50px;
@@ -68,4 +77,5 @@ nav form{
 .icons-innerhtml a{
     padding: 25px;
     font-size: 1.9rem;
+    color: #112129;
 }
